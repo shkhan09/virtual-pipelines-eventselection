@@ -1,0 +1,7 @@
+name: example
+on: push
+jobs:
+  greeting:
+    runs-on: macos-latest
+    steps:
+      - run: echo hello world
